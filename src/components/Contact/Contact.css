@@ -1,0 +1,41 @@
+.contact-wrapper {
+  width: 100%;
+  border-bottom: solid 2px #4CAF50;
+  padding-bottom: 20px;
+}
+
+.contact-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-name {
+  text-align: center;
+}
+
+.contact-link-label {
+  font-family: 'Michroma', sans-serif;
+}
+
+.contact-link {
+  margin: 10px;
+}
+
+.contact-link:link, .contact-link:visited {
+  color: #4CAF50;
+}
+
+.contact-link:hover, .contact-link:active {
+  color: #52077e;
+}
+
+.email-icon {
+  margin: 10px;
+  color: #4CAF50;
+}

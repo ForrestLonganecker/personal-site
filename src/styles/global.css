@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma|Pangolin|Rock+Salt&display=swap');
+
+
+.fun {
+  font-family: 'Rock Salt', cursive;
+}
+
+.big {
+  font-family: 'Michroma', sans-serif;
+}
+
+.main {
+  font-family: 'Pangolin', cursive;
+}
+
+.app-container {
+  width: 100%;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+}

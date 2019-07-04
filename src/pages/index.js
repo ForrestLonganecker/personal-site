@@ -1,21 +1,32 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Helmet } from 'react-helmet'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Navbar from '../components/Navbar/Navbar'
+import Home from '../components/Home/Home'
+import Projects from '../components/Projects/Projects'
+import About from '../components/About/About'
+import Contact from '../components/Contact/Contact'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+const App = () => {
+
+  return(
+    <div className="app-container">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Forrest Longanecker | Software Engineer</title>
+        <link rel="canonical" href="https://longanecker.tech" />
+      </Helmet>
+      <div className="nav-container">
+        <Navbar />
+      </div>
+      <div className="main-container">
+        <Home />
+        <Projects />
+        <About />
+        <Contact />
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+  );
+};
 
-export default IndexPage
+export default App
