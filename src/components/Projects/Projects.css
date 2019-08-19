@@ -40,12 +40,7 @@
 .project-img-container {
   width: 280px;
   padding: 5px;
-  padding-bottom: 0;
   background-color: #4CAF50;
-}
-
-.project-image {
-  width: 100%;
 }
 
 .devider {
