@@ -9,6 +9,7 @@ nav {
   overflow: hidden;
   background-color: white;
   opacity: 100%;
+  z-index: 1;
 }
 
 nav > a {

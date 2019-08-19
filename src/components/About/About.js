@@ -1,8 +1,7 @@
 import React from 'react'
 import { FaReact, FaNodeJs, FaGithub, FaSlack, FaTrello, FaYarn, FaNpm, FaHtml5, FaCss3Alt } from 'react-icons/fa'
 
-import puppyPicture from '../../../static/Puppy_picture.jpg'
-
+import PuppyPicture from '../PuppyPicture/PuppyPicture'
 import './About.css'
 
 const About = () => {
@@ -26,7 +25,7 @@ const About = () => {
       </div>
 
       <div className="about-image-container">
-        <img src={puppyPicture} alt="dog laying near waterfall" className="about-image" />
+        <PuppyPicture alt="dog laying near waterfall" />
       </div>
       
       <div className="about-content-wrapper">

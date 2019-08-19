@@ -1,8 +1,8 @@
 import React from 'react'
 import { FaGithub, FaLaptopCode } from 'react-icons/fa'
 
-import hangTrainerPhoto from '../../../static/Hangtrainer-mobile-screenshot-create.png'
-import sendipediaPhoto from '../../../static/Sendipedia-mobile-screenshot-landing.png'
+import Hangtrainer from '../Hangtrainer/Hangtrainer'
+import Sendipedia from '../Sendipedia/Sendipedia'
 
 import './Projects.css'
 
@@ -17,7 +17,7 @@ const Projects = () => {
           <h3 className="project-title big">HangTrainer</h3>
 
           <div className="project-img-container">
-            <img src={hangTrainerPhoto} alt="HangTrainer app preview" className="project-image" />
+            <Hangtrainer alt="HangTrainer app preview" />
           </div>
         </div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
           <h3 className="project-title big">Sendipedia</h3>
 
           <div className="project-img-container">
-            <img src={sendipediaPhoto} alt="Sendipedia app preview" className="project-image" />
+            <Sendipedia alt="Sendipedia app preview" />
           </div>
         </div>
 
