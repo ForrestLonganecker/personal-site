@@ -49,10 +49,10 @@ const Projects = () => {
           </ul>
 
           <div className="project-links-container">
-            <a href="https://github.com/ForrestLonganecker/HangTrainer" className="project-link">
+            <a href="https://github.com/ForrestLonganecker/HangTrainer" className="project-link" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30}/>
             </a>
-            <a href="https://forrestlonganecker-hangtrainer.herokuapp.com/" className="project-link">
+            <a href="https://forrestlonganecker-hangtrainer.herokuapp.com/" className="project-link" target="_blank" rel="noopener noreferrer">
               <FaLaptopCode size={30}/>
             </a>
           </div>        
@@ -100,10 +100,10 @@ const Projects = () => {
           </ul>
 
           <div className="project-links-container">
-            <a href="https://github.com/ForrestLonganecker/sendipedia" className="project-link">
+            <a href="https://github.com/ForrestLonganecker/sendipedia" className="project-link" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30}/>
             </a>
-            <a href="https://forrestlonganecker-sendipedia.herokuapp.com/" className="project-link">
+            <a href="https://forrestlonganecker-sendipedia.herokuapp.com/" className="project-link" target="_blank" rel="noopener noreferrer">
               <FaLaptopCode size={30}/>
             </a>
           </div>

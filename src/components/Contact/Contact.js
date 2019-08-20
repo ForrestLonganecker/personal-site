@@ -13,16 +13,13 @@ const Contact = () => {
 
       <div className="contact-link-container">
         <label className="contact-link-label">Github:</label>
-        <a className="contact-link" href="https://github.com/ForrestLonganecker"><FaGithub size={30}/></a>
+        <a className="contact-link" href="https://github.com/ForrestLonganecker" target="_blank" rel="noopener noreferrer"><FaGithub size={30}/></a>
 
         <label className="contact-link-label">LinkedIn:</label>
-        <a className="contact-link" href="https://www.linkedin.com/in/forrestlonganecker/"><FaLinkedinIn size={30}/></a>
+        <a className="contact-link" href="https://www.linkedin.com/in/forrestlonganecker/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size={30}/></a>
 
         <label className="contact-link-label">Email:</label>
-        <div className="email-icon">
-          <FaEnvelopeSquare size={30} />
-        </div>
-        <p className="main">forrlong.tech@gmail.com</p>
+        <a className="contact-link" href="mailto:forrlong.tech@gmail.com"><FaEnvelopeSquare size={30} /></a>
       </div>
     </div>
   );
