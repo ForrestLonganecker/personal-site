@@ -1,1 +1,1 @@
-Personal portfolio created using Gatsby.
+Personal website created using React and Gatsby
