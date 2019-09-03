@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 
 import './Navbar.css'
-import { TimelineLite } from 'gsap';
+import { TimelineLite, Power2 } from 'gsap';
 
 const Navbar = ({ isNavbarOpen }) => {
 
@@ -11,7 +11,7 @@ const Navbar = ({ isNavbarOpen }) => {
   let [tl, setTl] = useState(new TimelineLite({paused: true, reversed: false}));
 
   useEffect(() => {
-    tl.to(navAnimation, 0.5, {autoAlpha: 1, width: `50%`});
+    tl.to(navAnimation, 0.5, {autoAlpha: 1, width: `50%`, ease: Power2.easeInOut});
   }, []);
 
   useEffect(() => {
