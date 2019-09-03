@@ -22,9 +22,9 @@ const Navbar = ({ isNavbarOpen }) => {
     <nav className="navbar big" ref={element => {navAnimation = element}}>
       <a href="#home">Home</a>
 
-      <a href="#about">About</a>
-
       <a href="#projects">Projects</a>
+      
+      <a href="#about">About</a>
 
       <a href="#contact">Contact</a>
     </nav>
