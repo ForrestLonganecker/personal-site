@@ -1,11 +1,25 @@
 import React from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import './Navbar.css'
+import { TimelineLite } from 'gsap';
 
-const Navbar = () => {
+const Navbar = ({ isNavbarOpen }) => {
+
+  let navAnimation = useRef(null);
+
+  let [tl, setTl] = useState(new TimelineLite({paused: true, reversed: false}));
+
+  useEffect(() => {
+    tl.to(navAnimation, 0.5, {autoAlpha: 1, width: `50%`});
+  }, []);
+
+  useEffect(() => {
+    tl.reversed() ? tl.play() : tl.reverse();
+  }, [isNavbarOpen]);
 
   return(
-    <nav className="big">
+    <nav className="navbar big" ref={element => {navAnimation = element}}>
       <a href="#home">Home</a>
 
       <a href="#about">About</a>
