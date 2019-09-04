@@ -34,5 +34,6 @@ nav > a:link, nav > a:visited {
 
 nav > a:hover, nav > a:active {
   font-size: 1.3rem;
-  border-bottom: 4px solid #DEADFF;
+  padding-left: 1rem;
+  border-left: 4px solid #DEADFF;
 }
